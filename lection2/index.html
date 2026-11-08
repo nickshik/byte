@@ -46,7 +46,7 @@
                     </div>
                 </div>
             
-                   <div class="header-content">
+                     <div class="header-content">
                     <!-- Слайд 1: Что такое CSS -->
                     <div class="header-content__slide active">
                         <h1 class="letters">1. Что такое CSS и синтаксис</h1>
@@ -110,6 +110,72 @@
                             <p>Чтобы легко расставить элементы в ряд или по центру, родителю дают свойство display: flex. Свойство justify-content выравнивает элементы по горизонтали, а align-items — по вертикали. Это главный инструмент современной раскладки.</p>
                         </div>
                     </div>
+
+                    <!-- Слайд 9: Расширенная раскладка Grid -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">9. Сетки CSS Grid Layout</h1>
+                        <div class="header-content__info">
+                            <p>Если Flexbox идеален для одномерных строк, то display: grid управляет двухмерными сетками (строки + колонки). Свойство grid-template-columns делит блок на столбцы, а gap задает удобные расстояния между ячейками сетки.</p>
+                        </div>
+                    </div>
+
+                    <!-- Слайд 10: Позиционирование элементов -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">10. Свойство position</h1>
+                        <div class="header-content__info">
+                            <p>Свойство position вырывает элемент из общего потока. relative сдвигает блок относительно его обычного места, absolute привязывает его к координатам родителя, а fixed фиксирует на экране при скролле (например, шапку).</p>
+                        </div>
+                    </div>
+
+                    <!-- Слайд 11: Состояния и Псевдоклассы -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">11. Псевдоклассы и Интерактив</h1>
+                        <div class="header-content__info">
+                            <p>Псевдоклассы меняют стили при действиях пользователя. Селектор :hover срабатывает при наведении курсора мыши, :active — в момент клика, а :focus — когда мы встаем внутрь текстового поля ввода input.</p>
+                        </div>
+                    </div>
+
+                    <!-- Слайд 12: Адаптивный дизайн -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">12. Медиазапросы @media</h1>
+                        <div class="header-content__info">
+                            <p>Чтобы сайт красиво отображался на телефонах, используют медиазапросы. Конструкция @media (max-width: 768px) позволяет написать отдельные CSS-правила, которые включатся только на небольших экранах смартфона или планшета.</p>
+                        </div>
+                    </div>
+
+                    <!-- Слайд 13: Каскадность и Специфичность -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">13. Приоритеты и каскад</h1>
+                        <div class="header-content__info">
+                            <p>Браузер читает стили сверху вниз. Если правила конфликтуют, применится то, что написано ниже. Однако селекторы по ID сильнее классов, а классы сильнее обычных тегов. Самый высокий приоритет имеет метка !important.</p>
+                        </div>
+                    </div>
+
+                    <!-- Слайд 14: CSS Переменные -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">14. Кастомные переменные</h1>
+                        <div class="header-content__info">
+                            <p>Чтобы не копировать один и тот же цвет сотни раз, используют переменные. Они объявляются через две черточки: --main-color: #3498db; внутри селектора :root. Вызвать эту переменную в нужном месте можно с помощью функции var(--main-color).</p>
+                        </div>
+                    </div>
+
+                    <!-- Слайд 15: Плавные переходы Transition -->
+                                       <!-- Слайд 15: Плавные переходы Transition -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">15. Плавность и Анимация</h1>
+                        <div class="header-content__info">
+                            <p>Свойство transition позволяет делать изменения стилей (например, цвета кнопки при наведении) плавными, а не мгновенными. Мы указываем анимируемое свойство, время анимации и характер изменения скорости, например: transition: background-color 0.3s ease.</p>
+                        </div>
+                    </div>
+
+                    <!-- Слайд 16: Эффекты теней сайтов -->
+                    <div class="header-content__slide">
+                        <h1 class="letters">16. Эффекты теней</h1>
+                        <div class="header-content__info">
+                            <p>Для добавления объема интерфейсу применяются тени. Свойство box-shadow настраивает тень для блочных элементов (смещение по X и Y, размытие, растяжение и цвет), а text-shadow создает красивый и глубокий теневой эффект непосредственно для букв текста.</p>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -167,7 +233,55 @@
                 <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic23.png);"></div>
                 <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic24.png);"></div>
             </div>
-           
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic25.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic26.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic27.png);"></div>
+            </div>
+
+            <!-- Слайд 2 -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic28.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic29.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic30.png);"></div>
+            </div>
+
+            <!-- Слайд 3 -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic31.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic32.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic33.png);"></div>
+            </div>
+
+            <!-- Слайд 4 -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic34.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic35.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic36.png);"></div>
+            </div>
+
+            <!-- Слайд 5 -->
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic37.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic38.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic39.png);"></div>
+            </div>
+             <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic40.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic41.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic42.png);"></div>
+            </div>
+          
+             <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic43.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic44.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic45.png);"></div>
+            </div>
+            <div class="swiper-slide slider__item">
+                <div class="slider__layer" data-swiper-parallax="35%" style="background-image: url(pics/pic22.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="25%" style="background-image: url(pics/pic23.png);"></div>
+                <div class="slider__layer" data-swiper-parallax="14%" style="background-image: url(pics/pic24.png);"></div>
+            </div>
         </div>
     </div>
 </body>
